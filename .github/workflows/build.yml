@@ -3,12 +3,12 @@ name: Build APK
 on:
   push:
     branches:
-      - master
+      - NA
     tags:
       - v*
   pull_request:
     branches:
-      - master
+      - NA
   workflow_dispatch:   # manual trigger
 
 jobs:
